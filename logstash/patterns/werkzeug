@@ -1,0 +1,2 @@
+WERKDATE %{MONTHDAY}/%{MONTH}/%{YEAR} %{TIME}
+WERKZEUG %{IP:ip} - - \[%{WERKDATE}\] "%{WORD:method} %{URIPATH:path} %{WORD}/%{NUMBER:http_version}" %{INT:status} [%{NUMBER:response_size}|-]

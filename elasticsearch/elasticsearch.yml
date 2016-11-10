@@ -1,0 +1,2 @@
+cluster.name: elk-example
+network.host: 0.0.0.0
